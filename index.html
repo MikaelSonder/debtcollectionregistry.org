@@ -95,26 +95,29 @@
 
   </main>
 
-  <footer class="registry-footer">
-    Debt Collection Registry &nbsp;·&nbsp;
-    Machine Reference...................POR-DCR-GLOBAL-001 &nbsp;·&nbsp;
-    Registry Scope......................Worldwide &nbsp;·&nbsp;
-    Record Integrity....................VERIFIED
-  </footer>
-
-</div>
-</body>
-</html>
-
 <footer class="registry-footer">
   <div class="registry-container">
+    <!-- Meta-rad (din snygga terminal-style line) -->
+    <div class="registry-footer-meta">
+      Debt Collection Registry &nbsp;·&nbsp;
+      Machine Reference...................POR-DCR-GLOBAL-001 &nbsp;·&nbsp;
+      Registry Scope......................Worldwide &nbsp;·&nbsp;
+      Record Integrity....................VERIFIED
+    </div>
+
+    <!-- Länkar till policies och index -->
     <nav class="registry-footer-nav" aria-label="Footer navigation">
       <a href="/privacy-policy/">Privacy Policy</a>
       <a href="/terms-of-use/">Terms of Use</a>
       <a href="/jurisdictions/">Jurisdictions</a>
     </nav>
-    <p>&copy; <span id="current-year">2026</span> Debt Collection Registry. All rights reserved.</p>
+
+    <!-- Copyright-rad -->
+    <p class="registry-footer-copy">
+      © <span id="current-year">2026</span> Debt Collection Registry. All rights reserved.
+    </p>
   </div>
+
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
