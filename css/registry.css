@@ -285,7 +285,7 @@ DIVIDER
 
 
 /*==========================================================
-FOOTER
+FOOTER (UPPDATERAD)
 ==========================================================*/
 
 .registry-footer{
@@ -294,9 +294,7 @@ FOOTER
 
     border-top:2px solid #222;
 
-    padding-top:16px;
-
-    font-family:Consolas,monospace;
+    padding:16px 0 24px;
 
     font-size:12px;
 
@@ -304,6 +302,48 @@ FOOTER
 
     line-height:1.7;
 
+}
+
+.registry-footer-inner{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.registry-footer-meta{
+    font-family:Consolas,monospace;
+    line-height:1.4;
+    margin-bottom:0.75rem;
+}
+
+.registry-footer-meta span{
+    display:block;
+}
+
+.registry-footer-brand{
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-bottom:0.25rem;
+}
+
+.registry-footer-nav{
+    margin-bottom:0.5rem;
+}
+
+.registry-footer-nav a{
+    text-decoration:none;
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin:0 0.4rem;
+}
+
+.registry-footer-nav a:first-child{
+    margin-left:0;
+}
+
+.registry-footer-copy{
+    color:#777;
+    font-size:0.75rem;
 }
 
 
