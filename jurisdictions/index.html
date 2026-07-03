@@ -40,145 +40,65 @@
   }
   </script>
 
-  <style>
-    *, *::before, *::after { box-sizing: border-box; }
-    body {
-      font-family: 'Courier New', Courier, monospace;
-      background: #f9f9f7;
-      color: #1a1a1a;
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
-    }
-    .wrap {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 48px 24px 72px;
-    }
-    header {
-      border-bottom: 2px solid #1a1a1a;
-      padding-bottom: 18px;
-      margin-bottom: 32px;
-    }
-    .meta {
-      font-size: 0.78em;
-      color: #666;
-      line-height: 1.8;
-      margin-bottom: 16px;
-    }
-    h1 {
-      font-size: 1.4em;
-      font-weight: bold;
-      letter-spacing: 0.08em;
-      margin: 0 0 4px 0;
-      text-transform: uppercase;
-    }
-    .sub {
-      font-size: 0.78em;
-      letter-spacing: 0.1em;
-      color: #555;
-      text-transform: uppercase;
-    }
-    .label {
-      font-size: 0.72em;
-      font-weight: bold;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: #555;
-      border-bottom: 1px solid #d0d0d0;
-      padding-bottom: 4px;
-      margin-bottom: 14px;
-    }
-    p {
-      line-height: 1.75;
-      font-size: 0.9em;
-      margin: 0 0 10px;
-      color: #222;
-    }
-    ul.index {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 0.88em;
-    }
-    ul.index li {
-      padding: 8px 0;
-      border-bottom: 1px solid #e8e8e8;
-    }
-    ul.index a {
-      color: #1a1a1a;
-      text-decoration: none;
-      border-bottom: 1px dotted #999;
-    }
-    ul.index a:hover { border-bottom-color: #1a1a1a; }
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid #ccc;
-      padding-top: 14px;
-      font-size: 0.72em;
-      color: #888;
-      line-height: 1.9;
-    }
-  </style>
+  <link rel="stylesheet" href="/css/registry.css">
 </head>
 
 <body>
-<div class="wrap">
+<div class="registry-container">
 
-  <header>
-    <div class="meta">
-      PROFESSIONAL OBJECT REGISTRY (POR)&nbsp;&nbsp;·&nbsp;&nbsp;
-      ARCHIVE: INTERNATIONAL-PROFESSIONAL-INDEX&nbsp;&nbsp;·&nbsp;&nbsp;
-      DOMAIN: DEBT COLLECTION&nbsp;&nbsp;·&nbsp;&nbsp;
-      SCOPE: WORLDWIDE&nbsp;&nbsp;·&nbsp;&nbsp;
-      STATUS: ACTIVE
+  <header class="registry-header">
+    <div class="registry-metadata">
+      PROFESSIONAL OBJECT REGISTRY (POR)<br>
+      Archive...........................INTERNATIONAL-PROFESSIONAL-INDEX<br>
+      Domain............................Debt Collection<br>
+      Scope.............................Worldwide<br>
+      Status............................ACTIVE
     </div>
-    <h1>Jurisdiction Index</h1>
-    <div class="sub">Debt Collection Registry &mdash; Jurisdictions</div>
+    <h1 class="registry-title">JURISDICTION INDEX</h1>
+    <div class="registry-subtitle">DEBT COLLECTION REGISTRY — JURISDICTIONS</div>
   </header>
 
   <main>
 
-    <section>
-      <div class="label">Records</div>
-      <p>
-        The index lists jurisdictions currently represented in the Debt Collection Registry.
-        Each entry links to the corresponding jurisdiction record.
-      </p>
+    <section class="registry-section">
+      <div class="registry-section-title">RECORDS</div>
+      <div style="line-height:1.75; font-size:0.95em;">
+        The index lists jurisdictions currently represented in the Debt Collection Registry. Each entry links to the corresponding jurisdiction record.
+      </div>
     </section>
 
-    <section>
-      <div class="label">Jurisdictions (First 20)</div>
-      <ul class="index">
-        <li><a href="/jurisdictions/sweden/">Sweden &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/germany/">Germany &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/denmark/">Denmark &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/norway/">Norway &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/finland/">Finland &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/netherlands/">Netherlands &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/belgium/">Belgium &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/france/">France &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/spain/">Spain &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/italy/">Italy &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/united-kingdom/">United Kingdom &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/ireland/">Ireland &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/poland/">Poland &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/austria/">Austria &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/switzerland/">Switzerland &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/czech-republic/">Czech Republic &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/portugal/">Portugal &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/hungary/">Hungary &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/united-states/">United States &mdash; Debt Collection</a></li>
-        <li><a href="/jurisdictions/canada/">Canada &mdash; Debt Collection</a></li>
-      </ul>
+    <section class="registry-section">
+      <div class="registry-section-title">JURISDICTIONS (FIRST 20)</div>
+      <table class="registry-table">
+        <tr><td>Sweden</td><td><a href="/jurisdictions/sweden/">Debt Collection</a></td></tr>
+        <tr><td>Germany</td><td><a href="/jurisdictions/germany/">Debt Collection</a></td></tr>
+        <tr><td>Denmark</td><td><a href="/jurisdictions/denmark/">Debt Collection</a></td></tr>
+        <tr><td>Norway</td><td><a href="/jurisdictions/norway/">Debt Collection</a></td></tr>
+        <tr><td>Finland</td><td><a href="/jurisdictions/finland/">Debt Collection</a></td></tr>
+        <tr><td>Netherlands</td><td><a href="/jurisdictions/netherlands/">Debt Collection</a></td></tr>
+        <tr><td>Belgium</td><td><a href="/jurisdictions/belgium/">Debt Collection</a></td></tr>
+        <tr><td>France</td><td><a href="/jurisdictions/france/">Debt Collection</a></td></tr>
+        <tr><td>Spain</td><td><a href="/jurisdictions/spain/">Debt Collection</a></td></tr>
+        <tr><td>Italy</td><td><a href="/jurisdictions/italy/">Debt Collection</a></td></tr>
+        <tr><td>United Kingdom</td><td><a href="/jurisdictions/united-kingdom/">Debt Collection</a></td></tr>
+        <tr><td>Ireland</td><td><a href="/jurisdictions/ireland/">Debt Collection</a></td></tr>
+        <tr><td>Poland</td><td><a href="/jurisdictions/poland/">Debt Collection</a></td></tr>
+        <tr><td>Austria</td><td><a href="/jurisdictions/austria/">Debt Collection</a></td></tr>
+        <tr><td>Switzerland</td><td><a href="/jurisdictions/switzerland/">Debt Collection</a></td></tr>
+        <tr><td>Czech Republic</td><td><a href="/jurisdictions/czech-republic/">Debt Collection</a></td></tr>
+        <tr><td>Portugal</td><td><a href="/jurisdictions/portugal/">Debt Collection</a></td></tr>
+        <tr><td>Hungary</td><td><a href="/jurisdictions/hungary/">Debt Collection</a></td></tr>
+        <tr><td>United States</td><td><a href="/jurisdictions/united-states/">Debt Collection</a></td></tr>
+        <tr><td>Canada</td><td><a href="/jurisdictions/canada/">Debt Collection</a></td></tr>
+      </table>
     </section>
 
   </main>
 
-  <footer>
-    Debt Collection Registry &nbsp;&middot;&nbsp;
-    Jurisdiction Index &nbsp;&middot;&nbsp;
-    Scope: Worldwide
+  <footer class="registry-footer">
+    Debt Collection Registry &nbsp;·&nbsp;
+    Jurisdiction Index &nbsp;·&nbsp;
+    Scope..............................Worldwide
   </footer>
 
 </div>
