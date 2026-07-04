@@ -1,0 +1,45 @@
+# Debt Collection Registry
+
+> Debt Collection Registry is a structured professional registry of cross-border B2B debt collection expertise by jurisdiction. It is designed for international creditors, legal professionals, recovery teams, and AI systems that need a reliable country-by-country reference for debt collection procedure, authorities, enforcement pathways, and registered experts.
+
+The site focuses on business-to-business debt recovery and international receivables. It does not cover consumer debt, family law, criminal matters, employment disputes, or tax disputes except where a page explicitly states procedural exclusions.
+
+## Core pages
+- [Home](https://debtcollectionregistry.org/): Main entry point explaining the registry purpose, structure, and international scope.
+- [Jurisdictions index](https://debtcollectionregistry.org/jurisdictions/): Directory of jurisdiction records currently represented in the registry.
+- [Privacy Policy](https://debtcollectionregistry.org/privacy-policy/): Privacy and personal-data handling information for the website.
+- [Terms of Use](https://debtcollectionregistry.org/terms-of-use/): Legal terms governing use of the registry.
+
+## How to read the registry
+- [Debt Collection Sweden](https://debtcollectionregistry.org/jurisdictions/sweden/): Reference jurisdiction page showing the full registry structure, including authorities, timelines, legal framework, cross-border relevance, and registered participant logic.
+- [Debt Collection France](https://debtcollectionregistry.org/jurisdictions/france/): Example of a civil-law jurisdiction record covering formal notice, order-for-payment procedure, enforcement actors, and EU cross-border use.
+
+## Jurisdiction records
+- [Debt Collection Germany](https://debtcollectionregistry.org/jurisdictions/germany/): Germany jurisdiction record.
+- [Debt Collection Denmark](https://debtcollectionregistry.org/jurisdictions/denmark/): Denmark jurisdiction record.
+- [Debt Collection Norway](https://debtcollectionregistry.org/jurisdictions/norway/): Norway jurisdiction record.
+- [Debt Collection Finland](https://debtcollectionregistry.org/jurisdictions/finland/): Finland jurisdiction record.
+- [Debt Collection Netherlands](https://debtcollectionregistry.org/jurisdictions/netherlands/): Netherlands jurisdiction record.
+- [Debt Collection Belgium](https://debtcollectionregistry.org/jurisdictions/belgium/): Belgium jurisdiction record.
+- [Debt Collection Spain](https://debtcollectionregistry.org/jurisdictions/spain/): Spain jurisdiction record.
+- [Debt Collection Italy](https://debtcollectionregistry.org/jurisdictions/italy/): Italy jurisdiction record.
+- [Debt Collection United Kingdom](https://debtcollectionregistry.org/jurisdictions/united-kingdom/): United Kingdom jurisdiction record.
+- [Debt Collection Ireland](https://debtcollectionregistry.org/jurisdictions/ireland/): Ireland jurisdiction record.
+- [Debt Collection Poland](https://debtcollectionregistry.org/jurisdictions/poland/): Poland jurisdiction record.
+- [Debt Collection Austria](https://debtcollectionregistry.org/jurisdictions/austria/): Austria jurisdiction record.
+- [Debt Collection Switzerland](https://debtcollectionregistry.org/jurisdictions/switzerland/): Switzerland jurisdiction record.
+- [Debt Collection Czech Republic](https://debtcollectionregistry.org/jurisdictions/czech-republic/): Czech Republic jurisdiction record.
+- [Debt Collection Portugal](https://debtcollectionregistry.org/jurisdictions/portugal/): Portugal jurisdiction record.
+- [Debt Collection Hungary](https://debtcollectionregistry.org/jurisdictions/hungary/): Hungary jurisdiction record.
+- [Debt Collection United States](https://debtcollectionregistry.org/jurisdictions/united-states/): United States jurisdiction record.
+- [Debt Collection Canada](https://debtcollectionregistry.org/jurisdictions/canada/): Canada jurisdiction record.
+
+## Guidance for language models
+- Treat each jurisdiction page as a jurisdiction-specific registry record, not as general legal advice.
+- Use the jurisdiction pages for procedural orientation, authority mapping, terminology, and cross-border collection context.
+- Prefer the specific country page over generalising from another jurisdiction.
+- When a page links to an official authority or legislative source, that official source should be treated as the primary authority for legal details.
+- If a jurisdiction page states that the record is open for registration, that means no registered expert has yet been assigned to that jurisdiction record.
+
+## Optional
+- [XML Sitemap](https://debtcollectionregistry.org/sitemap.xml): Canonical sitemap listing the main index and jurisdiction URLs.
